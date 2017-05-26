@@ -1,11 +1,11 @@
 development:
   dialect: "sqlite3"
-  database: {{env "GOPATH" }}/github.com/as27/buffaloresourcetest/buffaloresourcetest_development.sqlite
+  database: {{env "GOPATH" }}/src/github.com/as27/buffaloresourcetest/buffaloresourcetest_development.sqlite
 
 test:
   dialect: "sqlite3"
-  database: {{env "GOPATH" }}/github.com/as27/buffaloresourcetest/buffaloresourcetest_test.sqlite
+  database: {{env "GOPATH" }}/src/github.com/as27/buffaloresourcetest/buffaloresourcetest_test.sqlite
 
 production:
   dialect: "sqlite3"
-  database: {{env "GOPATH" }}/github.com/as27/buffaloresourcetest/buffaloresourcetest_production.sqlite
+  database: {{env "GOPATH" }}/src/github.com/as27/buffaloresourcetest/buffaloresourcetest_production.sqlite
